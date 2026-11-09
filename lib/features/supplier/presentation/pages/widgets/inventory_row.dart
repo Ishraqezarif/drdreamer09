@@ -37,6 +37,8 @@ class InventoryRow extends StatelessWidget {
                 product.imageAsset,
                 bytes: product.imageBytes,
               ),
+              
+              // child: Image.asset(product.imageBytes.toString()),
             ),
             const SizedBox(width: 10),
             Expanded(

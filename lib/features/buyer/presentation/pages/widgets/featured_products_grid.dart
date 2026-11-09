@@ -41,7 +41,7 @@ class FeaturedProductsGrid extends StatelessWidget {
             crossAxisCount: 2,
             crossAxisSpacing: 12,
             mainAxisSpacing: 12,
-            mainAxisExtent: 268,
+            mainAxisExtent: 280,
           ),
           itemBuilder: (context, index) {
             final product = products[index];

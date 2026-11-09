@@ -6,7 +6,7 @@ abstract final class AppEnv {
   static const name = String.fromEnvironment('APP_ENV', defaultValue: 'dev');
   static const apiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'https://recipe-axis-poor-benjamin.trycloudflare.com',
+    defaultValue: 'https://ethnic-moms-talented-contributed.trycloudflare.com',
   );
   static const stripePublishableKey = String.fromEnvironment(
     'STRIPE_PUBLISHABLE_KEY',
